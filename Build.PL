@@ -13,9 +13,9 @@ my $build = Module::Build->new(
     configure_requires   => { 'Module::Build' => '0.38' },
     requires             => {
         perl => '5.008005',
-        # 'Exporter'                      => '0',
         'parent'                        => '0',
-        # 'Plack'                         => '0.9949',
+        'Plack'                         => '0.9949',
+        'DBIx::DisconnectAll'           => '0.03',
     },
 
     no_index    => { 'directory' => [ 'inc' ] },
