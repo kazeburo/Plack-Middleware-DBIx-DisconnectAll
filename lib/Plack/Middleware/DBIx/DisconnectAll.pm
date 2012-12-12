@@ -3,6 +3,7 @@ package Plack::Middleware::DBIx::DisconnectAll;
 use strict;
 use warnings;
 use 5.008005;
+use parent qw/Plack::Middleware/;
 use DBIx::DisconnectAll;
 
 our $VERSION = '0.01';
