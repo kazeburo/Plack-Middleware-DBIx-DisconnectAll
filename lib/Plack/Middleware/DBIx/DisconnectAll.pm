@@ -13,6 +13,10 @@ sub call {
     my $res = $self->app->($env);
     Plack::Util::response_cb($res, sub {
         my $res = shift;
+        if ( defined $res->[2] ) {
+            dbi_disconnect_all();
+            return;
+        }
         return sub {
             my $chunk = shift;
             if ( ! defined $chunk ) {
