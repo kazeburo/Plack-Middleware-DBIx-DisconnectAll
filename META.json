@@ -67,5 +67,5 @@
          "web" : "https://github.com/kazeburo/Plack-Middleware-DBIx-DisconnectAll"
       }
    },
-   "version" : "0.01"
+   "version" : "0.02"
 }

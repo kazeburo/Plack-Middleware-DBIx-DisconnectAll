@@ -6,7 +6,7 @@ use 5.008005;
 use parent qw/Plack::Middleware/;
 use DBIx::DisconnectAll;
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 sub call {
     my ( $self, $env) = @_;
