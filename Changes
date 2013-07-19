@@ -1,4 +1,6 @@
 Revision history for Perl extension Plack::Middleware::DBIx::DisconnectAll
 
+{{$NEXT}}
+
 0.01    Wed Dec 12 13:01:34 2012
     - original version

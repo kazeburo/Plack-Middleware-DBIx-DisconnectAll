@@ -1,1 +1,0 @@
-lib/Plack/Middleware/DBIx/DisconnectAll.pm
